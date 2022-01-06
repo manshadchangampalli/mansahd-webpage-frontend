@@ -1,4 +1,5 @@
 import Page from "./Page";
+import './Styles/Style.scss'
 
 
 function App() {

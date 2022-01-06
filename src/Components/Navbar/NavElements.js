@@ -4,14 +4,14 @@ var whiteColor = "#FFFFFF"
 
 export const Nav = styled.nav`
     width: 60px;
-    height: 340px;
+    height: 400px;
     background: ${whiteColor};
     position: fixed;
     left: 0;
     padding: 30px 5px;
     top: 50%;
     transform: translate(0,-50%);
-    border-radius:0 40px 40px 0;
+    border-radius:0 30px 30px 0;
 `
 export const NavRoundTop = styled.div`
     position: absolute;
