@@ -5,7 +5,7 @@ import ProjectImg from '../../Assets/images/navImages/Projects.png'
 import CodeImg from '../../Assets/images/navImages/code.png'
 import Contact from '../../Assets/images/navImages/contact.png'
 import ArrowImg from '../../Assets/images/navImages/Arrow.png' 
-import { Link, useLocation, useParams } from "react-router-dom";
+import { Link, useLocation} from 'react-router-dom';
 
 function NavBar() {
   const [isShow,setIsShow] = useState(false)

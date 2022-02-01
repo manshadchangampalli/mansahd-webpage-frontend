@@ -95,7 +95,7 @@ export const Images = styled.img`
 export const MainNav = styled.div`
     width: 180px;
     height: 400px;
-    position: absolute;
+    position: fixed;
     top: 50%;
     border: 1px solid #000;
     left: ${({isShow}) => isShow ?"120px":"-200px"};
