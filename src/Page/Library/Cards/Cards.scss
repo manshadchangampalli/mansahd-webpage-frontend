@@ -1,0 +1,24 @@
+@import '../../../Styles/variable';
+.codes{
+    min-width: 250px;
+    min-height: 250px;
+    width: 100%;
+    height: 100%;
+    background-color: $blackColor;
+    max-width: 400px;
+    max-height: 300px;
+    display: grid;
+    place-items: center;
+    border-radius: 20px;
+    border: 1px solid $whiteColor;
+    font-family: $exo2;
+    cursor: pointer;
+    &:hover{
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.651);
+    }
+    h1{
+        font-size: 22px;
+        transform: scaleY(1.1);
+        color: $whiteColor;
+    }
+}
