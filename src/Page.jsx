@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Projects from './Page/Project/Projects'
 import Library from './Page/Library/Library'
 import ViewAll from './Components/AllCodes/ViewAll'
+import SingleCard from './Page/Library/SingleCard/SingleCard'
 
 function Page() {
     return (
@@ -14,6 +15,7 @@ function Page() {
                 <Route path="/projects" element={<Projects/>}/>
                 <Route path="/library" element={<Library/>}/>
                 <Route path="/library/viewall" element={<ViewAll/>}/>
+                <Route path="/library/:id" element={<SingleCard/>}/>
                 <Route path="/contact" element={<HomePage/>}/>
                 <Route path="*" element={<h1>404</h1>}/>
             </Routes>

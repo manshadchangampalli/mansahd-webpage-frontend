@@ -16,7 +16,7 @@ function NavBar() {
   const showMainNavByImg = () =>{
     setIsShow(!isShow)
     }
-    console.log(pathname );
+    // console.log(pathname )
   return (
     <>
     <InfoButton>
